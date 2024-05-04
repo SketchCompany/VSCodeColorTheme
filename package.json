@@ -1,0 +1,29 @@
+{
+  "name": "scct",
+  "displayName": "Sketch Company Color Theme",
+  "description": "Custom Color Theme for VS Code made by the Sketch Company",
+  "version": "0.0.1",
+  "publisher": "SketchCompany",
+  "engines": {
+    "vscode": "^1.89.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "dark theme",
+    "sketch company",
+    "sketchy games",
+    "sketchy"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Sketch Company Color Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Sketch Company Color Theme-color-theme.json"
+      }
+    ]
+  }
+}
