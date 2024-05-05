@@ -11,7 +11,7 @@
 		"editor.lineHighlightBorder": "#0e203681",
 		"editor.findMatchHighlightBackground": "#d83aff41",
 		"editor.findMatchBackground": "#d83aff41",
-		"editor.foreground": "#7158ff",
+		"editor.foreground": "#acc5c7",
 		"editorGroup.border": "#0e1e33",
 		"editorGroup.dropIntoPromptForeground": "#d0ebee",
 		"editorGroup.dropBackground": "#0f274694",
@@ -86,9 +86,9 @@
 
 
 		// scrollbar
-		"scrollbarSlider.background": "#08111d",
-		"scrollbarSlider.hoverBackground": "#0b1c31",
-		"scrollbarSlider.activeBackground": "#08111d",
+		"scrollbarSlider.background": "#08111db2",
+		"scrollbarSlider.hoverBackground": "#0b1c31b7",
+		"scrollbarSlider.activeBackground": "#08111dad",
 
 
 		// badge
@@ -171,7 +171,63 @@
 	},
 	"tokenColors": [
 		{
-			"name": "Measd",
+			"name": "css property",
+			"scope": [
+				"support.type.property-name.css"
+			],
+			"settings": {
+				"foreground": "#9CDCFE",
+			}
+		},
+		{
+			"name": "html tag",
+			"scope": [
+				"entity.other.attribute-name",
+				"entity.other.inherited-class",
+			],
+			"settings": {
+				"foreground": "#9CDCFE",
+			}
+		},
+		{
+			"name": "html tag",
+			"scope": [
+				"entity.name.tag",
+			],
+			"settings": {
+				"foreground": "#3f92ff",
+			}
+		},
+		{
+			"name": "html symbol",
+			"scope": [
+				"meta.tag",
+			],
+			"settings": {
+				"foreground": "#d0ebee",
+			}
+		},
+		{
+			"name": "json",
+			"scope": [
+				"support.type.property-name.json"
+			],
+			"settings": {
+				"foreground": "#9CDCFE",
+			}
+		},
+		{
+			"name": "meta",
+			"scope": [
+				"meta.function",
+				"meta.class",
+			],
+			"settings": {
+				"foreground": "#7158ff",
+			}
+		},
+		{
+			"name": "this",
 			"scope": [
 				"variable.language",
 			],
@@ -263,7 +319,7 @@
 				"storage.type.primitive.groovy"
 			],
 			"settings": {
-				"foreground": "#4EC9B0"
+				"foreground": "#44c7ad"
 			}
 		},
 		{

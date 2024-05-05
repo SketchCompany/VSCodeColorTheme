@@ -2,7 +2,7 @@
 This is the official color theme extension for VS Code of the Sketch Company.
 It support a complete revised look of the VS Code Editor.
 
-# Theme
+## Theme
 The color theme focuses on dark blue colors and the default language color support.
 
 # Help

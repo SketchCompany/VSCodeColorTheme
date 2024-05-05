@@ -3,6 +3,15 @@
 ## [Unreleased]
 - color changes
 
+## v1.0.4
+### Added
+- -
+### Changed
+- default editor color 
+- meta funtion and class colors
+### Removed
+- -
+
 ## v1.0.3
 ### Added
 - default language support colors
