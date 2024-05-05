@@ -2,7 +2,7 @@
   "name": "scct",
   "displayName": "Sketch Company Color Theme",
   "description": "Custom Color Theme for VS Code made by the Sketch Company",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "publisher": "SketchCompany",
   "repository": {
     "type": "git",
